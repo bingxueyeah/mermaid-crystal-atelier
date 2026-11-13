@@ -1,0 +1,3 @@
+*.split* binary
+*.assets binary
+*.resource binary

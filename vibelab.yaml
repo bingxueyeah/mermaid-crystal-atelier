@@ -1,0 +1,48 @@
+app:
+  id: "7706963657636397096"
+  name: 潮汐秘境
+  slogan: 在深海潮汐中托起一座人鱼水晶摆件，看光影与鱼群在掌心缓缓流转
+  description: |
+    潮汐秘境是一款运行在 PICO 空间环境中的沉浸式水晶摆件体验。应用在真实房间里悬浮起一座人鱼水晶球：贝壳基座、珍珠光环与人鱼雕像层层叠起，鱼群与水光在球体周围缓慢游弋，让桌面摆件在空间中获得呼吸感。
+
+    **核心体验**
+    - 三套主题配色：珍珠潮汐、月光深海、玫瑰珊瑚，一键切换整座水晶摆件的氛围光。
+    - 持续动画：人鱼上下浮动、鱼群环游、微光粒子上升，画面始终处于缓慢流动的状态。
+    - 视角控制：暂停/继续动画、开启或停止自动旋转、一键重置视角，方便从任意角度欣赏。
+    - 空间呈现：应用以空间窗口方式放置在真实房间中，可随时环视，与室内环境自然融合。
+
+    **操作方式**
+    视线或指针停留在画面下方的四个按钮上并点击，即可切换主题、暂停动画、开关自动旋转、重置视角；按钮文字会实时反馈当前状态。
+
+    **适用场景**
+    适合在家居、展示、休闲场景中作为氛围摆件使用，也适合作为 PICO 空间应用的视觉演示。
+  tags:
+    - 影音娱乐
+  category: application
+  icon: assets/icon.jpg
+  landscape: assets/landscape.jpg
+  detail_images:
+    - assets/detail-1.jpg
+    - assets/detail-2.jpg
+    - assets/detail-3.jpg
+    - assets/detail-4.jpg
+    - assets/detail-5.jpg
+  videos: []
+version:
+  name: V1.0.0
+  notes: |
+    - 新增潮汐秘境人鱼水晶摆件场景，包含贝壳基座、珍珠光环与人鱼雕像。
+    - 新增三套主题配色，可一键切换整体氛围光。
+    - 新增鱼群环游、人鱼浮动与微光粒子动画。
+    - 新增暂停/继续、自动旋转开关与视角重置按钮。
+    - 支持 PICO 空间窗口呈现，可与真实房间环境融合。
+build:
+  repo_url: https://github.com/bingxueyeah/mermaid-crystal-atelier
+  repo_visibility: public
+  tech_stack: unity
+  ai_tool: Trae CLI
+  ai_model: DeepSeek-V4.1-Flash
+  features:
+    - mixed_reality
+    - controller_support
+  teammates: []
